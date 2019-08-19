@@ -1,0 +1,6 @@
+
+CREATE TABLE user_access (
+	codigo IDENTITY NOT NULL PRIMARY KEY,
+    token VARCHAR(255) NOT NULL,
+);
+
